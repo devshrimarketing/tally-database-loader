@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Poppins&weight=800&size=35&pause=1000&color=000000&center=false&vCenter=true&width=435&lines=Tally+Database+Loader)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Poppins&weight=800&size=30&pause=1000&color=FFA200&background=FFFFFF00&width=435&lines=Tally+Database+Loader)](https://git.io/typing-svg)
 
 Commandline utility to load data into Database Server from Tally software, intended for further use by
 * MS Excel / Google Sheet (for tabular reports)

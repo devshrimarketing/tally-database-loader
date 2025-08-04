@@ -96,7 +96,7 @@ create table mst_stock_item
  parent varchar(1024) not null default '',
  category varchar(256),
  alias varchar(256) not null default '',
- description varchar(64) not null default '',
+ description varchar(4096) not null default '',
  notes varchar(64) not null default '',
  part_number varchar(256) not null default '',
  uom varchar(32) not null default '',
