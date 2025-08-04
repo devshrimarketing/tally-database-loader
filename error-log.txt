@@ -1,22 +1,16 @@
-Error from database.dumpDataPostges() at 2025-08-04 13:05:06
-error: extra data after last expected column
-    at Parser.parseErrorMessage (D:\DEVSHRI_GITHUB\tally-database-loader\node_modules\pg-protocol\dist\parser.js:283:98)
-    at Parser.handlePacket (D:\DEVSHRI_GITHUB\tally-database-loader\node_modules\pg-protocol\dist\parser.js:122:29)
-    at Parser.parse (D:\DEVSHRI_GITHUB\tally-database-loader\node_modules\pg-protocol\dist\parser.js:35:38)
-    at Socket.<anonymous> (D:\DEVSHRI_GITHUB\tally-database-loader\node_modules\pg-protocol\dist\index.js:11:42)
-    at Socket.emit (node:events:519:28)
-    at addChunk (node:internal/streams/readable:559:12)
-    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
-    at Readable.push (node:internal/streams/readable:390:5)
-    at TCP.onStreamRead (node:internal/stream_base_commons:191:23)
-extra data after last expected column
+Error from database.executePostgres() at 2025-08-04 14:08:25
+error: invalid input syntax for type numeric: ""
+    at D:\DEVSHRI_GITHUB\tally-database-loader\node_modules\pg\lib\client.js:535:17
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///D:/DEVSHRI_GITHUB/tally-database-loader/dist/database.mjs:624:34
+invalid input syntax for type numeric: ""
 error
 ERROR
-22P04
-COPY mst_stock_item, line 2: ""24c00b0b-e0d2-406f-9552-d1dba370660a-00000a07","02D0","NELES-SPOOL VALVE COIL","COIL","24V DC","NEL..."
-copyfromparse.c
-892
-NextCopyFrom
+22P02
+1366
+numeric.c
+804
+numeric_in
 --------------------------------------------------------------------------------
 
 

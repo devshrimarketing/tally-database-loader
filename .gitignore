@@ -1,6 +1,5 @@
-## CSV Folder
+# Ignore CSV exports/imports
 csv/
 
-## Log Files
-error-log.txt
-import-log.txt
+# Ignore log files
+/*.txt
