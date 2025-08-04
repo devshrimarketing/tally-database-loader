@@ -89,14 +89,15 @@ create table mst_stock_group
 create table mst_stock_item
 (
  guid varchar(64) not null primary key,
- name nvarchar(1024) not null default '',
- parent nvarchar(1024) not null default '',
- alias nvarchar(256) not null default '',
- description nvarchar(64) not null default '',
- notes nvarchar(64) not null default '',
- part_number nvarchar(256) not null default '',
- uom nvarchar(32) not null default '',
- alternate_uom nvarchar(32) not null default '',
+ name varchar(1024) not null default '',
+ parent varchar(1024) not null default '',
+ category varchar(256) not null default '',
+ alias varchar(256) not null default '',
+ description varchar(64) not null default '',
+ notes varchar(64) not null default '',
+ part_number varchar(256) not null default '',
+ uom varchar(32) not null default '',
+ alternate_uom varchar(32) not null default '',
  conversion int not null default 0,
  opening_balance decimal(15,4) default 0,
  opening_rate decimal(15,4) default 0,
@@ -104,12 +105,12 @@ create table mst_stock_item
  closing_balance decimal(15,4) default 0,
  closing_rate decimal(15,4) default 0,
  closing_value decimal(17,2) default 0,
- costing_method nvarchar(32) not null default '',
- gst_type_of_supply nvarchar(32) default '',
- gst_hsn_code nvarchar(64) default '',
- gst_hsn_description nvarchar(256) default '',
- gst_rate int default 0,
- gst_taxability nvarchar(32) default ''
+ costing_method varchar(32) not null default '',
+ gst_type_of_supply varchar(32) default '',
+ gst_hsn_code varchar(64) default '',
+ gst_hsn_description varchar(256) default '',
+ gst_rate decimal(9,4) default 0,
+ gst_taxability varchar(32) default ''
 );
 
 create table mst_cost_category

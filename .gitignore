@@ -1,0 +1,6 @@
+## CSV Folder
+csv/
+
+## Log Files
+error-log.txt
+import-log.txt
