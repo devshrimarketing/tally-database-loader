@@ -1,0 +1,22 @@
+{
+    "database": {
+        "technology": "bigquery",
+        "server": "localhost",
+        "port": 0,
+        "ssl": false,
+        "schema": "tallydb_24_25",
+        "username": "",
+        "password": "",
+        "loadmethod": "file"
+    },
+    "tally": {
+        "definition": "tally-export-config.yaml",
+        "server": "localhost",
+        "port": 9005,
+        "fromdate": "2024-04-01",
+        "todate": "2026-03-31",
+        "sync": "full",
+        "frequency": 30,
+        "company": "DEVSHRI MARKETING (24-26)"
+    }
+}
