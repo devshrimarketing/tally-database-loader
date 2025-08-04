@@ -94,6 +94,7 @@ create table mst_stock_item
  guid varchar(64) not null primary key,
  name varchar(1024) not null default '',
  parent varchar(1024) not null default '',
+ category varchar(256),
  alias varchar(256) not null default '',
  description varchar(64) not null default '',
  notes varchar(64) not null default '',
